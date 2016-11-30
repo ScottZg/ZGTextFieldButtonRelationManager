@@ -7,5 +7,5 @@
  manager.buttonTextEnabledColor = [UIColor blackColor];
  manager.buttonDisabledColor = [UIColor redColor];
  manager.buttonTextDisabledColor = [UIColor whiteColor];
- [[ZGTextFieldButtonRelationManager shared] setButtonStatus:self.myButton byTextFieldArr:@[self.firstTextField,self.secondTextField,self.thiredTextField]];
+ [manager setButtonStatus:self.myButton byTextFieldArr:@[self.firstTextField,self.secondTextField,self.thiredTextField]];
 ```
